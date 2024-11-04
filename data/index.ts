@@ -72,28 +72,21 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
+    title: "Nxt Trendz Shopping Application",
     des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    img: "https://assets.ccbp.in/frontend/content/react-js/nxt-trendz-cart-features-lg-output.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/fm.svg"],
+    link: "https://nxttrendzbysai.ccbp.tech/login",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
+    title: "Jobby App - One destination for jobs",
     des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    img: "https://assets.ccbp.in/frontend/content/react-js/jooby-app-profile-failure-lg-output-v0.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg"],
+    link: "https://jobbyapp.ccbp.tech",
   },
-  {
-    id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
-  },
+
   {
     id: 4,
     title: "Animated Apple Iphone 3D Website",
@@ -101,6 +94,14 @@ export const projects = [
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "/ui.apple.com",
+  },
+  {
+    id: 3,
+    title: "Covid Dashboard",
+    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    img: "/covid.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
+    link: "https://saicovid.ccbp.tech/",
   },
 ];
 

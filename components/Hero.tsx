@@ -57,7 +57,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Sai Rakindi, a Frontend Developer with expertise in
+            Hi! I&apos;m Sai Rakindi, a Frontend Engineer with 3+ YoE in
             React.js, Next.js.
           </p>
 
