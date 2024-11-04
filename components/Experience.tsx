@@ -42,6 +42,12 @@ const Experience = () => {
                 <p className="text-start text-white-100 mt-3 font-semibold">
                   {card.desc}
                 </p>
+
+                {card?.workExp && (
+                  <p className="text-start text-white-100 mt-3 font-semibold">
+                    {card?.workExp}, {card?.company}
+                  </p>
+                )}
               </div>
             </div>
           </Button>

@@ -49,8 +49,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Main focus on Performance, Animations and Sleek UI",
-    description: "The Inside Scoop",
+    title: "Feature developments with better Performance & SEO Optimizations",
+    description: "Primarily focused on",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -93,7 +93,7 @@ export const projects = [
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    link: "https://sai-iphone.vercel.app/",
   },
   {
     id: 3,
@@ -174,31 +174,35 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Frontend Engineer - ASE",
+    desc: "Developed a real-estate web application of a web-based platform using React.js, enhancing interactivity.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
+    company: "Accion Labs - Hyderabad",
+    workExp: "Oct 2021 - Mar 2024",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Frontend Engineer- SE",
+    desc: "Designed and developed web application for both iOS & Android platforms using Next.js.",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
+    thumbnail: "/exp4.svg",
+    company: "Accion Labs - Hyderabad",
+    workExp: "Apr 2024 - Present",
   },
   {
     id: 3,
     title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    desc: "Developed and maintained user-facing features using modern frontend technologies.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
     title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    desc: "Led a junior frontend team of 5 from beginners to advanced on latest frontend technologies",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "/exp2.svg",
   },
 ];
 
@@ -206,13 +210,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/SaiRakindi",
   },
-  {
-    id: 2,
-    img: "/twit.svg",
-  },
+  // {
+  //   id: 2,
+  //   img: "/twit.svg",
+  //   link: "https://twitter.com/SaiRakindi",
+  // },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://linkedin.com/in/sai-rakindi",
   },
 ];

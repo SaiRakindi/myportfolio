@@ -10,6 +10,8 @@ import { BackgroundGradientAnimation } from "./GradientBg";
 import GridGlobe from "./GridGlobe";
 import animationData from "@/data/confetti.json";
 import MagicButton from "../MagicButton";
+import Link from "next/link";
+import { FaLocationArrow } from "react-icons/fa6";
 
 export const BentoGrid = ({
   className,
@@ -125,16 +127,26 @@ export const BentoGridItem = ({
           )}
         >
           {/* change the order of the title and des, font-extralight, remove text-xs text-neutral-600 dark:text-neutral-300 , change the text-color */}
-          <div className="font-sans font-extralight md:max-w-32 md:text-xs lg:text-base text-sm text-[#C1C2D3] z-10">
+          <div className="font-sans font-extralight md:max-w-34 md:text-xs lg:text-base text-sm text-[#C1C2D3] z-10">
             {description}
           </div>
           {/* add text-3xl max-w-96 , remove text-neutral-600 dark:text-neutral-300*/}
           {/* remove mb-2 mt-2 */}
-          <div
-            className={`font-sans text-lg lg:text-3xl max-w-96 font-bold z-10`}
-          >
-            {title}
-          </div>
+          {id !== 2 ? (
+            <div
+              className={`font-sans text-lg lg:text-3xl max-w-96 font-bold z-10`}
+            >
+              {title}
+            </div>
+          ) : (
+            <Link
+              href="https://drive.google.com/file/d/1SLdZr7G_VlKFGD0ntXCiIa-_l8ae2nm0/view?usp=drive_link"
+              target="_blank"
+              className="flex gap-2 items-center"
+            >
+              View My Resume {"  "} <FaLocationArrow />
+            </Link>
+          )}
 
           {/* for the github 3d globe */}
           {id === 2 && <GridGlobe />}
