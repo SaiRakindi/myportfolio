@@ -57,7 +57,8 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Adrian, a Next.js Developer based in Croatia.
+            Hi! I&apos;m Sai Rakindi, a Frontend Developer with expertise in
+            React.js, Next.js.
           </p>
 
           <a href="#about">
